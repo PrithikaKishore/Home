@@ -1,0 +1,87 @@
+.dropbtn {
+    background-color: rgba(255, 255, 255, 0.11);
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 150px;
+  font-size: 18px;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(255, 139, 228, 0.726);
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgba(239, 248, 255, 0.534);}
+
+
+a:hover {
+  background-color: rgba(239, 248, 255, 0.534);
+}
+
+        nav ul{
+                background-color: rgba(255, 255, 255, 0.493);
+                color: rgb(0, 0, 0);
+                /*border: 2px solid black;*/
+                padding: 0.05%;
+                text-align: center;
+                box-shadow: 0 8px 10px -1px rgba(0,0,0,0.25);
+        }
+
+        nav ul li{
+            list-style-type: none;
+            display: inline;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 125%;
+        }
+
+        .fonts {
+            font-family: 'Kaushan Script', cursive;
+            font-size: 32px;
+            font-weight: 100%;
+        }
+
+        body { 
+  background-image:url('./static/giphy.gif'); 
+  background-repeat: no-repeat;
+  width: 98.7%;
+  height: 580px;
+  background-size: cover;
+  }
+
+
+
+
+ 
+  button {
+    background-color: rgba(255, 255, 255, 0.493);
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+  }

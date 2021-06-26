@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+
+            .mainpart{
+                background-color: white;
+                margin: 10px;
+                padding: 20px;
+   
+                border-radius: 150px;
+            }
+
+            body{
+            text-align: center;
+            font-size: 150%;
+            background-color: rgba(241, 40, 73, 0.753);
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-top: 70px;
+        }
+        .fonts {
+            font-family: 'Norican', cursive;
+            text-align: center;
+            font-size: 25px;
+        }
+
+            ::selection {
+        color: white;
+        background: black;
+    }
+        nav ul{
+                background-color: rgba(251, 255, 37, 0.226);
+                color: rgb(0, 0, 0);
+  
+                padding: 1%;
+        }
+
+        nav ul li{
+            list-style-type: none;
+            display: inline;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 125%;
+        }
+
+        .buttonaa {
+
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+        }
+
+        .buttona {
+            color: rgb(0, 0, 0);
+            font-size: 12px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            
+        }
+        a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        .fonts {
+            font-family: 'Zilla Slab Highlight', cursive;
+            font-size: 17px;
+            text-align: center;
+        
+        }
+
+            button:hover{
+                background-color: darkgray;
+                color: black;
+                text-decoration-color: white;
+            }
+
+            .btn-gradient {
+
+font-size: 80%;
+font-family: 'Noto Serif', serif;
+
+width: 100px;
+
+height: 40px;
+
+border: none;
+
+border-radius: 10px;
+
+color: #fff;
+
+animation: c 100s linear infinite;
+
+background: linear-gradient(
+
+121.19deg,
+
+rgba(133, 239, 49, 0) 25.73%,
+
+hsla(0, 0%, 100%, 0.11) 45.27%,
+
+rgba(133, 239, 49, 0) 62.27% ), rgba(152, 86, 237);
+
+transition: background-color 0.5s ease;
+
+}
+
+.btn-gradient:hover {
+
+    animation: c 100s linear infinite;
+
+background: linear-gradient(
+
+121.19deg,
+
+rgba(133, 239, 49, 0) 25.73%,
+
+hsla(0, 0%, 100%, 0.3) 45.27%,
+
+rgba(133, 239, 49, 0) 62.27% ), orange;
+
+}
+
+@keyframes c {
+
+0% {
+
+background-position: -5000px 0;
+
+}
+
+to {
+
+background-position: 5000px 0;
+
+}
+
+}
+
+    </style>
+        <link rel="icon" href="./static/favicon.ico" type="image/gif" sizes="16x16">
+</head>
+<body>
+
+    </style>
+</head>
+<body>
+    <div class="mainpart">
+ 
+    <h1>Login</h1>
+<p>Not Registered?? Then <a href="./register.html">Register</a></p>
+    <form>
+   
+  
+    <br><br>
+    <label for="email">
+         E-mail: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="email" name="email">
+    </label>
+    <br>
+    <label for="password">
+        Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="password" id="password" name="password" required>
+   </label>
+   <br><br>
+    <br>
+    <button class="btn-gradient" type= "submit"><a href="./successlog.html">Login</a></button>
+    
+    </form>
+    </div>
+    <br><br><br><br>
+
+    <footer>
+        <p style="text-align: center; font-size: small;">Needles & Ladles Private Limited © 2021<br>
+            All rights reserved</p>
+    </footer>
+</body>
+</html>

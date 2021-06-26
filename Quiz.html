@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./static/favicon.ico" type="image/gif" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes</title>
+</head>
+<style>
+
+button {
+            background-color: rgb(47, 255, 5);
+            color: black;
+            font-size: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+        }
+
+        button:hover {
+            background-color: rgb(99, 250, 68);
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    nav ul{
+                background-color: rgba(251, 255, 37, 0.226);
+                color: rgb(0, 0, 0);
+                text-align: center;
+                padding: 1%;
+        }
+
+        nav ul li{
+            list-style-type: none;
+            display: inline;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 125%;
+        }
+
+        .title {
+            font-family: 'Merienda One', cursive;
+            text-align: center;
+            font-size: 33px;
+        }
+
+        .titlee {
+            font-family: 'Merienda One', cursive;
+        }
+
+        .content {
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .contentt {
+            font-family: 'Dancing Script', cursive;
+            font-size: 20px;
+        }
+
+        .shadow-4 {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15), 
+              0 2px 2px rgba(0,0,0,0.15), 
+              0 4px 4px rgba(0,0,0,0.15), 
+              0 8px 8px rgba(0,0,0,0.15);
+}
+
+.shadow-6 {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 8px 8px rgba(0,0,0,0.11), 
+              0 16px 16px rgba(0,0,0,0.11), 
+              0 32px 32px rgba(0,0,0,0.11);
+}
+
+body{
+    padding: 30px;
+}
+
+.grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            box-shadow: 10px 8px 10px -1px rgba(0,0,0,0.25);
+            grid-gap: 30px;
+
+
+        }
+    
+        .grid-item {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+            
+        }
+</style>
+<body style="background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm28-acrylicpaint-poy-291_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=3bff0249433d3ccd680b848ddb2765dc); background-size: 100%;">
+    <div class="title">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+
+<h1 class="">Quizzes!</h1>
+<div class="content">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <h2>Guys... I have many quizzes for you to try. Each quiz has 5 questions. <br>So give it a try on every quiz.</h2>
+</div>
+<br>
+    </div>
+    
+    <div class="grid-container">
+        
+
+        <div class="grid-item">
+            <div class="titlee">
+
+                <h1><u>Food quiz</u></h1>
+            </div>
+            <div class="contentt">
+    
+                <h3>Are you a foodie? Then test your food knowledge here!!</h3>
+            </div>
+            <button type="submit" id="food" name="food"><a href="./foodquiz.html">Click to start the quiz</a></button>
+        </div>
+
+        <div class="grid-item">
+            <div class="titlee">
+ 
+                <h1><u>Logo Quiz</u></h1>
+            </div>
+            <div class="contentt">
+    
+                <h3>Find which company the logo belongs to...</h3>
+            </div>
+            <button type="submit" id="logo" name="logo"><a href="./logoquiz.html">Click to start the quiz</a></button>
+        </div>
+
+        <div class="grid-item">
+            <div class="titlee">
+
+                <h1><u>Indian Dance form Quiz</u></h1>
+            </div>
+            <div class="contentt">
+    
+                <h3>Know more about the dance form of India...</h3>
+            </div>
+            <button type="submit" id="dance" name="dance"><a href="./dancequiz.html">Click to start the quiz</a></button>
+        </div>
+    </div>
+    
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <nav>
+         <ul>
+            <li><a href="./index.html">❗Back to home❗</a></li>
+         </ul>
+        </nav>
+    </footer>
+    <footer>
+        <p style="font-size: small; text-align: center;">Needles & Ladles Private Limited © 2021<br>
+            All rights reserved</p>
+    </footer>
+</body>
+</html>
