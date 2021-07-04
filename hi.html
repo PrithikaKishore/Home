@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Tutorial</title>
+</head>
+<style>
+
+    nav ul {
+        background-color: black;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dbutton {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        font-size: 18px;
+        border: none;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 150px;
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 12px 16px;
+
+    }
+
+    .dropdown-content a:hover{
+        background-color: pink;
+    }
+
+    .dropdown:hover .dropdown-content{display: block;}
+    .dropdown:hover .dbutton{background-color: rgb(58, 58, 58);}
+</style>
+<body  style="background-color: rgb(35, 253, 242);">
+<nav>
+    <ul>
+        <div class="dropdown">
+            <button class="dbutton">More about me!</button>
+            <div class="dropdown-content">
+                <a href="#">CITY</a>
+                <a href="#">SCHOOL</a>
+                <a href="#">contact</a>
+                <a href="#">website</a>
+            </div>
+        </div>
+    </ul>
+</nav>
+</body>
+</html>
